@@ -21,6 +21,7 @@ public class Main26 {
 
     // 이러면 컴파일이 안된다. 왜? String이 들어가야 하는데 Object가 들어가니깐
     // 헷갈리는게 T extends Object 가 아니다! 제네릭은 딱 맞게 들어가야한다 자동 형변환 안되는 듯
+    // 이런걸 불공변이라고 하는갑다(item 28)
 //    private static void unsafeAdd(List<String> strings, Object valueOf) {
 //        strings.add(valueOf);
 //    }
